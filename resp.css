@@ -1,3 +1,8 @@
+
+
+
+
+
 @media screen and (max-width: 420px){
    
 
@@ -7,6 +12,12 @@
         margin:auto;
     }
 
+
+    #lezioni,
+    #why{
+        background-color:hsl(343deg 59% 88%);
+    }
+    .row hr{display: block;}
    
 
     .row{
@@ -16,7 +27,6 @@
         flex-direction: column;
         flex-wrap:wrap;
         justify-items: center;
-        
         width:100%;
     }
 /* BLOCCO LEZIONI */
@@ -43,6 +53,7 @@
     #why .row>.third {
         margin-top: 1.5rem;
         width:100%;
+        border:none;
     }
 
     #why, #lezioni{
@@ -57,3 +68,4 @@
         height:5rem;
     }
 }
+
